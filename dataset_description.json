@@ -1,0 +1,41 @@
+{
+	"Name": "Kalunga2016",
+	"BIDSVersion": "1.9.0",
+	"HEDVersion": "8.4.0",
+	"DatasetType": "derivative",
+	"License": "CC-BY-4.0",
+	"Authors": [
+		"Emmanuel K. Kalunga",
+		"Sylvain Chevallier",
+		"Quentin Barth\u00e9lemy",
+		"Karim Djouani",
+		"Eric Monacelli",
+		"Yskandar Hamam"
+	],
+	"ReferencesAndLinks": [
+		"https://zenodo.org/record/2392979"
+	],
+	"DatasetDOI": "doi:10.1016/j.neucom.2016.01.007",
+	"GeneratedBy": [
+		{
+			"CodeURL": "https://github.com/NeuroTechX/moabb",
+			"Name": "moabb",
+			"Description": "Mother of All BCI Benchmarks",
+			"Version": "1.4.3"
+		}
+	],
+	"SourceDatasets": [
+		{
+			"DOI": "10.1016/j.neucom.2016.01.007",
+			"URL": "https://zenodo.org/record/2392979"
+		}
+	],
+	"Keywords": [
+		"Riemannian geometry",
+		"Online",
+		"Asynchronous",
+		"Brain-Computer Interfaces",
+		"Steady State Visually Evoked Potentials"
+	],
+	"PublicationYear": 2016
+}

@@ -1,0 +1,118 @@
+_dataset:
+  class: Kalunga2016
+  code: Kalunga2016
+  doi: 10.1016/j.neucom.2016.01.007
+  interval:
+  - 2
+  - 4
+  n_subjects: 12
+  paradigm: ssvep
+acquisition:
+  channel_types:
+    eeg: 8
+  hardware: g.tec MobiLab
+  line_freq: 50.0
+  montage: standard_1005
+  n_channels: 8
+  reference: right mastoid
+  sampling_rate: 256.0
+  sensor_type: EEG
+  sensors:
+  - Oz
+  - O1
+  - O2
+  - POz
+  - PO3
+  - PO4
+  - PO7
+  - PO8
+bci_application:
+  applications:
+  - assistive_robotics
+  environment: laboratory
+cross_validation:
+  cv_method: bootstrap
+  evaluation_type:
+  - cross_subject
+  - cross_session
+data_structure:
+  n_trials: 32 trials per session (8 per visual stimulus, 8 for resting class)
+  trials_context: per session
+documentation:
+  country: FR
+  data_url: https://zenodo.org/record/2392979
+  description: Online SSVEP-based BCI using Riemannian geometry for assistive robotics with shared control scheme
+  doi: 10.1016/j.neucom.2016.01.007
+  institution: Universite de Versailles Saint-Quentin
+  institution_address: 78140 Velizy, France
+  institution_department: Laboratoire d'Ingénierie des Systèmes de Versailles
+  investigators:
+  - Emmanuel K. Kalunga
+  - Sylvain Chevallier
+  - Quentin Barthélemy
+  - Karim Djouani
+  - Eric Monacelli
+  - Yskandar Hamam
+  keywords:
+  - Riemannian geometry
+  - Online
+  - Asynchronous
+  - Brain-Computer Interfaces
+  - Steady State Visually Evoked Potentials
+  license: CC-BY-4.0
+  publication_year: 2016
+  repository: Zenodo
+  senior_author: Sylvain Chevallier
+experiment:
+  class_labels:
+  - '13'
+  - '17'
+  - '21'
+  - rest
+  events:
+    '13': 2
+    '17': 4
+    '21': 3
+    rest: 1
+  feedback_type: none
+  mode: offline
+  n_classes: 4
+  paradigm: ssvep
+  primary_modality: visual
+  stimulus_modalities:
+  - visual
+  stimulus_presentation:
+    device: LED stimuli
+    frequencies: 13 Hz, 17 Hz, 21 Hz
+    note: No phase synchronization required
+  stimulus_type: flickering
+  study_design: SSVEP
+  synchronicity: synchronous
+  trial_duration: 6.0
+file_format: fif
+paradigm_specific:
+  detected_paradigm: ssvep
+  n_targets: 3
+  stimulus_frequencies_hz:
+  - 13.0
+  - 17.0
+  - 21.0
+participants:
+  health_status: healthy
+  n_subjects: 12
+  species: human
+runs_per_session: 1
+sessions_per_subject: 1
+signal_processing:
+  classifiers:
+  - MDRM
+  - CCA
+  feature_extraction:
+  - Covariance/Riemannian
+tags:
+  modality:
+  - Visual
+  pathology:
+  - Healthy
+  type:
+  - Perception
