@@ -1,5 +1,5 @@
 {
-	"Name": "Kalunga2016",
+	"Name": "SSVEP Exo dataset",
 	"BIDSVersion": "1.9.0",
 	"HEDVersion": "8.4.0",
 	"DatasetType": "derivative",
@@ -7,7 +7,7 @@
 	"Authors": [
 		"Emmanuel K. Kalunga",
 		"Sylvain Chevallier",
-		"Quentin Barth\u00e9lemy",
+		"Quentin Barthélemy",
 		"Karim Djouani",
 		"Eric Monacelli",
 		"Yskandar Hamam"
@@ -15,7 +15,6 @@
 	"ReferencesAndLinks": [
 		"https://zenodo.org/record/2392979"
 	],
-	"DatasetDOI": "doi:10.1016/j.neucom.2016.01.007",
 	"GeneratedBy": [
 		{
 			"CodeURL": "https://github.com/NeuroTechX/moabb",
