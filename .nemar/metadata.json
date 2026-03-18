@@ -1,0 +1,90 @@
+{
+  "version": "2.0",
+  "pipeline_stage": "enriched",
+  "authors": {
+    "Emmanuel K. Kalunga": {},
+    "Sylvain Chevallier": {
+      "orcid": "0000-0003-3027-8241"
+    },
+    "Quentin Barthélemy": {},
+    "Karim Djouani": {},
+    "Eric Monacelli": {},
+    "Yskandar Hamam": {}
+  },
+  "related_identifiers": [
+    {
+      "identifier": "10.1016/j.neucom.2016.01.007",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/nm000123",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=nm000123",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.21105/joss.01896",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "10.1038/s41597-019-0104-8",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    }
+  ],
+  "title": "SSVEP Exo dataset",
+  "license": "CC-BY-4.0",
+  "dataset_type": "derivative",
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "81.7 MB (32 files)"
+  ],
+  "formats": [
+    ".html",
+    ".json",
+    ".md",
+    ".set",
+    ".tsv",
+    ".yaml",
+    ".yml"
+  ],
+  "description": "The SSVEP Exo dataset is a derivative dataset comprising electroencephalographic recordings from 12 healthy participants performing a steady-state visually evoked potential (SSVEP) paradigm with flickering visual stimuli at 13, 17, and 21 Hz frequencies. This processed version includes 8-channel EEG recordings sampled at 256 Hz with standardized electrode montage and is annotated using HED 8.4.0 schema. The dataset is designed for benchmarking brain-computer interface algorithms using Riemannian geometry-based feature extraction and classification methods, particularly for assistive robotics applications with shared control schemes. Data were acquired in an offline, synchronous paradigm and processed using MOABB (Mother of All BCI Benchmarks).",
+  "methods_description": "EEG data were acquired using g.tec MobiLab hardware with 8 electrodes (Oz, O1, O2, POz, PO3, PO4, PO7, PO8) positioned according to the standard 1005 montage, referenced to the right mastoid. Signals were sampled at 256 Hz with a 50 Hz line frequency. Participants viewed flickering LED stimuli presented at three target frequencies (13, 17, 21 Hz) in a synchronous, offline paradigm. Each trial lasted 6 seconds with an inter-stimulus interval of 2-4 seconds. A total of 32 trials per session were collected (8 per visual stimulus frequency and 8 rest trials). Feature extraction and classification employed Riemannian geometry-based methods including Minimum Distance to Riemannian Mean (MDRM) and Canonical Correlation Analysis (CCA).",
+  "keywords": [
+    {
+      "term": "steady-state visually evoked potentials"
+    },
+    {
+      "term": "SSVEP"
+    },
+    {
+      "term": "brain-computer interfaces"
+    },
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "Riemannian geometry"
+    },
+    {
+      "term": "assistive robotics"
+    },
+    {
+      "term": "shared control"
+    },
+    {
+      "term": "visual stimulation"
+    }
+  ],
+  "source_hash": "5e7f159c4c6d0c057db14a0817ee76f635f567c9ea88a54e84a50a8a867d93de"
+}
