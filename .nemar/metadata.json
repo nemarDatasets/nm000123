@@ -1,6 +1,11 @@
 {
   "version": "2.0",
   "pipeline_stage": "enriched",
+  "title": "Kalunga2016 – SSVEP Exo dataset",
+  "description": "This dataset comprises steady-state visually evoked potential (SSVEP) recordings from 12 healthy subjects performing a brain-computer interface task using flickering LED stimuli at three frequencies (13, 17, and 21 Hz). Recorded using 8-channel EEG at 256 Hz with a g.tec MobiLab amplifier, the data was collected during subjects seated in an electric wheelchair as part of an assistive robotics application. The dataset includes 32 trials per subject with four classes (three stimulus frequencies plus a rest condition) and is designed for evaluating Riemannian geometry-based classification methods in online SSVEP-BCI systems.",
+  "methods_description": "EEG data were acquired using a g.tec MobiLab amplifier with 8 electrodes (Oz, O1, O2, POz, PO3, PO4, PO7, PO8) positioned according to the standard 1005 montage with right mastoid reference. Sampling rate was 256 Hz with 50 Hz line frequency. Subjects viewed a panel of LEDs blinking at 13, 17, and 21 Hz frequencies, with trials lasting 6 seconds preceded by 3-second inter-trial intervals. Each session consisted of 32 trials (8 per frequency plus 8 rest trials) with auditory cues indicating target stimuli.",
+  "license": "CC-BY-4.0",
+  "dataset_type": "derivative",
   "authors": {
     "Emmanuel K. Kalunga": {},
     "Sylvain Chevallier": {
@@ -11,6 +16,43 @@
     "Eric Monacelli": {},
     "Yskandar Hamam": {}
   },
+  "keywords": [
+    {
+      "term": "steady-state visually evoked potentials"
+    },
+    {
+      "term": "SSVEP"
+    },
+    {
+      "term": "Brain-Computer Interfaces",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
+    },
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "Riemannian geometry"
+    },
+    {
+      "term": "Riemannian manifold"
+    },
+    {
+      "term": "online BCI"
+    },
+    {
+      "term": "assistive robotics"
+    },
+    {
+      "term": "assistive technology"
+    },
+    {
+      "term": "exoskeleton"
+    },
+    {
+      "term": "wheelchair control"
+    }
+  ],
   "related_identifiers": [
     {
       "identifier": "10.1016/j.neucom.2016.01.007",
@@ -38,14 +80,11 @@
       "relation_type": "References"
     }
   ],
-  "title": "SSVEP Exo dataset",
-  "license": "CC-BY-4.0",
-  "dataset_type": "derivative",
   "resource_type_general": "Dataset",
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
     "81.7 MB (32 files)"
   ],
@@ -58,33 +97,5 @@
     ".yaml",
     ".yml"
   ],
-  "description": "The SSVEP Exo dataset is a derivative dataset comprising electroencephalographic recordings from 12 healthy participants performing a steady-state visually evoked potential (SSVEP) paradigm with flickering visual stimuli at 13, 17, and 21 Hz frequencies. This processed version includes 8-channel EEG recordings sampled at 256 Hz with standardized electrode montage and is annotated using HED 8.4.0 schema. The dataset is designed for benchmarking brain-computer interface algorithms using Riemannian geometry-based feature extraction and classification methods, particularly for assistive robotics applications with shared control schemes. Data were acquired in an offline, synchronous paradigm and processed using MOABB (Mother of All BCI Benchmarks).",
-  "methods_description": "EEG data were acquired using g.tec MobiLab hardware with 8 electrodes (Oz, O1, O2, POz, PO3, PO4, PO7, PO8) positioned according to the standard 1005 montage, referenced to the right mastoid. Signals were sampled at 256 Hz with a 50 Hz line frequency. Participants viewed flickering LED stimuli presented at three target frequencies (13, 17, 21 Hz) in a synchronous, offline paradigm. Each trial lasted 6 seconds with an inter-stimulus interval of 2-4 seconds. A total of 32 trials per session were collected (8 per visual stimulus frequency and 8 rest trials). Feature extraction and classification employed Riemannian geometry-based methods including Minimum Distance to Riemannian Mean (MDRM) and Canonical Correlation Analysis (CCA).",
-  "keywords": [
-    {
-      "term": "steady-state visually evoked potentials"
-    },
-    {
-      "term": "SSVEP"
-    },
-    {
-      "term": "brain-computer interfaces"
-    },
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "Riemannian geometry"
-    },
-    {
-      "term": "assistive robotics"
-    },
-    {
-      "term": "shared control"
-    },
-    {
-      "term": "visual stimulation"
-    }
-  ],
-  "source_hash": "5e7f159c4c6d0c057db14a0817ee76f635f567c9ea88a54e84a50a8a867d93de"
+  "source_hash": "1437eb9e674d29f3edec938463976858b93441ce9975d018dc09ecd0e1c2c545"
 }
