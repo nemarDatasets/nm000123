@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "Kalunga2016 – SSVEP Exo dataset",
-  "description": "This dataset comprises steady-state visually evoked potential (SSVEP) recordings from 12 healthy subjects performing a brain-computer interface task using flickering LED stimuli at three frequencies (13, 17, and 21 Hz). Recorded using 8-channel EEG at 256 Hz with a g.tec MobiLab amplifier, the data was collected during subjects seated in an electric wheelchair as part of an assistive robotics application. The dataset includes 32 trials per subject with four classes (three stimulus frequencies plus a rest condition) and is designed for evaluating Riemannian geometry-based classification methods in online SSVEP-BCI systems.",
-  "methods_description": "EEG data were acquired using a g.tec MobiLab amplifier with 8 electrodes (Oz, O1, O2, POz, PO3, PO4, PO7, PO8) positioned according to the standard 1005 montage with right mastoid reference. Sampling rate was 256 Hz with 50 Hz line frequency. Subjects viewed a panel of LEDs blinking at 13, 17, and 21 Hz frequencies, with trials lasting 6 seconds preceded by 3-second inter-trial intervals. Each session consisted of 32 trials (8 per frequency plus 8 rest trials) with auditory cues indicating target stimuli.",
+  "description": "The Kalunga2016 SSVEP Exo dataset comprises EEG recordings from 12 healthy subjects performing a steady-state visually evoked potential (SSVEP) brain-computer interface task. Subjects were seated in an electric wheelchair and instructed to focus on flickering LEDs at frequencies of 13 Hz, 17 Hz, or 21 Hz, or to maintain fixation on a central point for the rest class. The dataset contains 8 EEG channels recorded at 256 Hz with a standard 10-05 montage, designed to evaluate online SSVEP-based BCI performance using Riemannian geometry classification methods for assistive robotics applications.",
+  "methods_description": "EEG data were acquired using a g.tec MobiLab amplifier with 8 electrodes (Oz, O1, O2, POz, PO3, PO4, PO7, PO8) positioned according to the standard 10-05 montage with right mastoid reference. Sampling rate was 256 Hz. Subjects performed 32 trials per session (8 trials per visual stimulus frequency: 13 Hz, 17 Hz, 21 Hz, and 8 rest trials), with each trial lasting 6 seconds and a 3-second inter-trial interval. Visual stimuli were presented via LED panels positioned on the left side of the wheelchair.",
   "license": "CC-BY-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -17,9 +17,6 @@
     "Yskandar Hamam": {}
   },
   "keywords": [
-    {
-      "term": "steady-state visually evoked potentials"
-    },
     {
       "term": "SSVEP"
     },
@@ -35,22 +32,13 @@
       "term": "Riemannian geometry"
     },
     {
-      "term": "Riemannian manifold"
+      "term": "assistive robotics"
     },
     {
       "term": "online BCI"
     },
     {
-      "term": "assistive robotics"
-    },
-    {
-      "term": "assistive technology"
-    },
-    {
-      "term": "exoskeleton"
-    },
-    {
-      "term": "wheelchair control"
+      "term": "visual evoked potentials"
     }
   ],
   "related_identifiers": [
@@ -65,11 +53,6 @@
       "relation_type": "IsDescribedBy"
     },
     {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=nm000123",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
       "identifier": "10.21105/joss.01896",
       "identifier_type": "DOI",
       "relation_type": "References"
@@ -78,6 +61,11 @@
       "identifier": "10.1038/s41597-019-0104-8",
       "identifier_type": "DOI",
       "relation_type": "References"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/nm000123",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "resource_type_general": "Dataset",
@@ -86,9 +74,10 @@
     "eeg"
   ],
   "sizes": [
-    "81.7 MB (32 files)"
+    "167.7 MB (62 files)"
   ],
   "formats": [
+    ".fif",
     ".html",
     ".json",
     ".md",
@@ -97,5 +86,5 @@
     ".yaml",
     ".yml"
   ],
-  "source_hash": "1437eb9e674d29f3edec938463976858b93441ce9975d018dc09ecd0e1c2c545"
+  "source_hash": "d003ff93c218324e9ce86794d3cace3f83865e8f793d6f5f27402dad2b6572e2"
 }
