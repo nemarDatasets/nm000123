@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Kalunga2016 – SSVEP Exo dataset",
-  "description": "The Kalunga2016 SSVEP Exo dataset comprises EEG recordings from 12 healthy subjects performing a steady-state visually evoked potential (SSVEP) brain-computer interface task. Subjects were seated in an electric wheelchair and instructed to focus on flickering LEDs at frequencies of 13 Hz, 17 Hz, or 21 Hz, or to maintain fixation on a central point for the rest class. The dataset contains 8 EEG channels recorded at 256 Hz with a standard 10-05 montage, designed to evaluate online SSVEP-based BCI performance using Riemannian geometry classification methods for assistive robotics applications.",
-  "methods_description": "EEG data were acquired using a g.tec MobiLab amplifier with 8 electrodes (Oz, O1, O2, POz, PO3, PO4, PO7, PO8) positioned according to the standard 10-05 montage with right mastoid reference. Sampling rate was 256 Hz. Subjects performed 32 trials per session (8 trials per visual stimulus frequency: 13 Hz, 17 Hz, 21 Hz, and 8 rest trials), with each trial lasting 6 seconds and a 3-second inter-trial interval. Visual stimuli were presented via LED panels positioned on the left side of the wheelchair.",
+  "description": "This dataset comprises steady-state visually evoked potential (SSVEP) recordings from 12 healthy subjects performing a brain-computer interface task using flickering LED stimuli at three frequencies (13, 17, and 21 Hz) presented during wheelchair-based exoskeleton experiments. EEG signals were acquired from 8 occipital and parietal electrodes at 256 Hz sampling rate, with 32 trials per session consisting of 8 trials per stimulus frequency and 8 rest trials. The dataset was designed to evaluate online SSVEP-based BCI performance using Riemannian geometry classification methods for assistive robotics applications.",
+  "methods_description": "EEG data were recorded from 12 healthy subjects (aged 20-28 years) using a g.tec MobiLab amplifier with 8 electrodes (Oz, O1, O2, POz, PO3, PO4, PO7, PO8) positioned according to the standard 1005 montage with right mastoid reference. Subjects sat in an electric wheelchair with a 20×30 cm LED panel positioned on the left side displaying three groups of 4 LEDs flickering at 13 Hz, 17 Hz, and 21 Hz. Each trial lasted 6 seconds total with a 2-4 second stimulus window and 3-second inter-trial intervals. Subjects followed auditory cues to focus on target LEDs or a central fixation point for the rest class. Signals were sampled at 256 Hz with 50 Hz line frequency filtering.",
   "license": "CC-BY-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -35,10 +35,10 @@
       "term": "assistive robotics"
     },
     {
-      "term": "online BCI"
+      "term": "visual evoked potentials"
     },
     {
-      "term": "visual evoked potentials"
+      "term": "exoskeleton"
     }
   ],
   "related_identifiers": [
@@ -86,5 +86,5 @@
     ".yaml",
     ".yml"
   ],
-  "source_hash": "d003ff93c218324e9ce86794d3cace3f83865e8f793d6f5f27402dad2b6572e2"
+  "source_hash": "22c1b9a7675642bd92bf400f88cb69d09f478dd9f1be28947b70f7a98bdd95f1"
 }
