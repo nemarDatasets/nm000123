@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Kalunga2016 – SSVEP Exo dataset",
-  "description": "This dataset comprises steady-state visually evoked potential (SSVEP) recordings from 12 healthy subjects performing a brain-computer interface task using flickering LED stimuli at three frequencies (13, 17, and 21 Hz) presented during wheelchair-based exoskeleton experiments. EEG signals were acquired from 8 occipital and parietal electrodes at 256 Hz sampling rate, with 32 trials per session consisting of 8 trials per stimulus frequency and 8 rest trials. The dataset was designed to evaluate online SSVEP-based BCI performance using Riemannian geometry classification methods for assistive robotics applications.",
-  "methods_description": "EEG data were recorded from 12 healthy subjects (aged 20-28 years) using a g.tec MobiLab amplifier with 8 electrodes (Oz, O1, O2, POz, PO3, PO4, PO7, PO8) positioned according to the standard 1005 montage with right mastoid reference. Subjects sat in an electric wheelchair with a 20×30 cm LED panel positioned on the left side displaying three groups of 4 LEDs flickering at 13 Hz, 17 Hz, and 21 Hz. Each trial lasted 6 seconds total with a 2-4 second stimulus window and 3-second inter-trial intervals. Subjects followed auditory cues to focus on target LEDs or a central fixation point for the rest class. Signals were sampled at 256 Hz with 50 Hz line frequency filtering.",
+  "description": "This dataset contains 8-channel EEG recordings from 12 healthy participants performing an SSVEP-based brain-computer interface task, originally collected for an online, asynchronous BCI for assistive robotics using an exoskeleton-equipped wheelchair. Participants focused on LEDs flickering at 13, 17 and 21 Hz, or on a fixation point for a rest (reject) class, following auditory cues. The data are provided in BIDS format, converted via MOABB from the original Zenodo deposit.",
+  "methods_description": "EEG was recorded at 256 Hz with a g.tec MobiLab amplifier from 8 occipital and parieto-occipital electrodes (Oz, O1, O2, POz, PO3, PO4, PO7, PO8), referenced to the right mastoid. A panel with three groups of four LEDs blinking at different frequencies was placed to the left of the wheelchair. Each 5 s trial started with an audio cue and was followed by a 3 s pause. Each session consisted of 32 trials, 8 per frequency (13, 17, 21 Hz) plus 8 rest trials.",
   "license": "CC-BY-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -18,6 +18,9 @@
   },
   "keywords": [
     {
+      "term": "EEG"
+    },
+    {
       "term": "SSVEP"
     },
     {
@@ -26,19 +29,15 @@
       "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
     },
     {
-      "term": "EEG"
+      "term": "Evoked Potentials, Visual",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D005074"
     },
     {
       "term": "Riemannian geometry"
     },
     {
       "term": "assistive robotics"
-    },
-    {
-      "term": "visual evoked potentials"
-    },
-    {
-      "term": "exoskeleton"
     }
   ],
   "related_identifiers": [
@@ -74,7 +73,7 @@
     "eeg"
   ],
   "sizes": [
-    "167.7 MB (62 files)"
+    "160 MB (62 files)"
   ],
   "formats": [
     ".fif",
