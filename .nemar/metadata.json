@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Kalunga2016 – SSVEP Exo dataset",
-  "description": "This dataset contains 8-channel EEG recordings from 12 healthy participants performing an SSVEP-based brain-computer interface task, originally collected for an online, asynchronous BCI for assistive robotics using an exoskeleton-equipped wheelchair. Participants focused on LEDs flickering at 13, 17 and 21 Hz, or on a fixation point for a rest (reject) class, following auditory cues. The data are provided in BIDS format, converted via MOABB from the original Zenodo deposit.",
-  "methods_description": "EEG was recorded at 256 Hz with a g.tec MobiLab amplifier from 8 occipital and parieto-occipital electrodes (Oz, O1, O2, POz, PO3, PO4, PO7, PO8), referenced to the right mastoid. A panel with three groups of four LEDs blinking at different frequencies was placed to the left of the wheelchair. Each 5 s trial started with an audio cue and was followed by a 3 s pause. Each session consisted of 32 trials, 8 per frequency (13, 17, 21 Hz) plus 8 rest trials.",
+  "description": "EEG recordings from 12 healthy participants performing a steady-state visually evoked potential (SSVEP) task for an assistive-robotics brain-computer interface. Participants seated in an electric wheelchair focused on LEDs flickering at 13, 17 and 21 Hz, or on a fixation point for a rest class, while 8-channel EEG was recorded at 256 Hz. The data support online, asynchronous SSVEP BCI development using Riemannian geometry.",
+  "methods_description": "Eight EEG channels (Oz, O1, O2, POz, PO3, PO4, PO7, PO8) were recorded with a g.tec MobiLab amplifier at 256 Hz, referenced to the right mastoid. Each session consisted of 32 trials (8 per LED frequency and 8 rest trials). Trials lasted 5 s with 3 s pauses and began with an audio cue. A 20x30 cm panel with 3 groups of 4 LEDs provided the visual stimulation.",
   "license": "CC-BY-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -85,5 +85,5 @@
     ".yaml",
     ".yml"
   ],
-  "source_hash": "22c1b9a7675642bd92bf400f88cb69d09f478dd9f1be28947b70f7a98bdd95f1"
+  "source_hash": "64c0e70a16a9d5849737b7cbcb41626dded85f46f1d504c69362c516278065d7"
 }
